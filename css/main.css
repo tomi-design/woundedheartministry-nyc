@@ -174,6 +174,7 @@ figure img {
   font-family: 'Bebas Neue', cursive;
   font-weight: 400;
   font-size: 18px;
+  word-spacing: 1px;
 }
 
 .hero span {
@@ -395,6 +396,16 @@ main .content-wrapper {
 }
 
 
+#blogbutton {
+  background-color:rgb(1, 90, 105);
+  color:white;
+  border:none;
+  padding:10px 30px;
+  border-radius: 5px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*----footer----*/
 
 footer {
   display:flex;
