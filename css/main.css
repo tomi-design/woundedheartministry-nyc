@@ -162,11 +162,11 @@ figure img {
 
 .hero .content-wrapper {
   width:100%;
+  position: relative;
 }
 
 .hero img {
   width:100%;
-  position: relative;
 }
 
 .hero p {
@@ -188,7 +188,7 @@ figure img {
   align-items: center;
   position: absolute;
   width:40%;
-  top: 100px;
+  top: 5px;
   left: 30px;
 }
 
