@@ -398,17 +398,35 @@ main .content-wrapper {
 
 footer {
   display:flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: rgb(0, 54, 71);
   width:100%;
-  min-height: 400px;
+  min-height: 300px;
 }
 
 footer p {
   font-family: 'Source Sans Pro', sans-serif;
   color:white;
   width: 80%;
+}
+
+.social-med {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.soc-icon {
+  padding:40px;
+  
+}
+
+.social-med i {
+  font-size: 30px;
+  color:white;
 }
 
 
