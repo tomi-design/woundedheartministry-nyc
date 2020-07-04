@@ -125,8 +125,8 @@ header h2 {
   font-weight: 300;*/
   font-family: 'Teko', sans-serif;  
   font-weight: 300;
-  font-size: 20px;
-  letter-spacing: 2px;
+  font-size: 1.25em;
+  letter-spacing: 0.125em;
   width: 75%;
 }
 
@@ -136,7 +136,7 @@ header h2 {
   justify-content: space-around;
   align-items: center;
   width: 90%;
-  padding: 20px 0;
+  padding: 1.25em 0;
 
 }
 
@@ -174,13 +174,10 @@ figure img {
   /*font-family: 'Galada', cursive; */
   font-family: 'Bebas Neue', cursive;
   font-weight: 400;
-  font-size: 18px;
-  word-spacing: 1px;
+  font-size: 1.125em;
+  word-spacing: 0.063em;
 }
 
-.hero span {
-  
-}
 
 .hero .text-wrapper {
   display:flex;
@@ -188,8 +185,8 @@ figure img {
   align-items: center;
   position: absolute;
   width:40%;
-  top: 5px;
-  left: 30px;
+  top: 0.313em;
+  left: 1.875em;
 }
 
 
@@ -217,22 +214,22 @@ figure img {
 
 .dropdown i {
   color:rgb(1, 108, 141);
-  font-size: 24px;
+  font-size: 1.5em;
 }/*--- this is the font awesome icon----*/
 
 .dropdown-content {
   display:none;
   position: absolute;
   background-color:white;
-  min-width: 160px;
+  min-width: 10em;
   overflow:auto;
   z-index:1;
-  right: 5px;
+  right: 0.313em;
 }
 
 .dropdown-content a {
   color:rgb(1, 88, 122);
-  padding: 12px 16px;
+  padding: 0.75em 1em;
   text-decoration: none;
   display:block;
   text-transform: uppercase;
@@ -276,16 +273,17 @@ main .content-wrapper {
   padding-bottom: 90px;
 }
 
+
 .title-wrapper {
   text-align: center;
-  padding-top: 40px;
+  padding-top: 2.5em;
 }
 
 .title-wrapper h2 {
   font-family: 'Teko', sans-serif;  
   font-weight: 300;
-  letter-spacing: 2px;
-  font-size: 35px;
+  letter-spacing: 0.125em;
+  font-size: 2.188em;
   color:rgb(92, 163, 207);
 }
 
@@ -316,18 +314,18 @@ main .content-wrapper {
 }
 
 .image-wrapper .text {
-  padding-bottom: 40px;
+  padding: 1em 0 2.5em 0;
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 20px;
+  font-size: 1.25em;
   color:rgb(92, 163, 207);
   margin:0;
 }
 
 .image-wrapper i {
-  font-size: 60px;
+  font-size: 3.75em;
   width:30%;
   color:rgb(0, 71, 68);
-  padding: 20px 30px 0 30px;
+  padding: 1.25em 1.875em 0 1.875em;
 
 }
 
@@ -342,8 +340,8 @@ main .content-wrapper {
   align-items: center;
   /*border: rgb(92, 163, 207) solid 1px;*/
   width: 100%;
-  padding-bottom: 100px;
-  margin-bottom: 100px; 
+  padding-bottom: 6.25em;
+  margin-bottom: 6.25em; 
 }
 
 
@@ -351,13 +349,19 @@ main .content-wrapper {
   display:flex;
   justify-content: center;
   flex-wrap: wrap;
+  width:100%;
 }
 
-.blog img {
+.blog figure {
   width:80%;
   /*box-shadow: rgb(0, 71, 83) 10px 10px 50px;*/
   /*border: rgb(255, 255, 255) solid 10px;*/
   background-color: white;
+}
+
+.blog .articleimg {
+  box-shadow: rgb(80, 80, 80) 20px 20px 20px;
+
 }
 
 .imgborder {
@@ -365,19 +369,34 @@ main .content-wrapper {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 30px 10px 100px 10px;
+  padding: 1.875em 0.625em 6.25em 0.625em;
 }
 
 .blog h2 {
   font-family: 'Teko', sans-serif;
   font-weight: 300;
-  letter-spacing: 2px;
-  font-size: 35px;
+  letter-spacing: 0.125em;
+  font-size: 2.188em;
   text-transform: uppercase;
   color:rgb(1, 90, 105);
-  border-bottom: rgb(208, 242, 253) solid 2px;
   /*background-color: rgb(208, 242, 253);*/
-  padding:0 200px;
+  width:100%;
+  display:flex;
+  justify-content: center;
+  margin:0 auto;
+}
+
+.blog-title-wrapper {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.divider {
+  border: rgb(208, 242, 253) solid 0.125em;
+  width:100%;
 }
 
 .article-text {
@@ -386,13 +405,18 @@ main .content-wrapper {
   color:rgb(0, 71, 68);
 }
 
+.imgborder a {
+  color:rgb(209, 75, 75);
+  text-decoration: none;
+}
+
 .article-title {
   width:80%;
   font-family: 'Source Sans Pro', sans-serif;
   color:rgb(0, 71, 68);
-  font-size: 22px;
+  font-size: 1.375em;
   margin:0;
-  padding-top:15px;
+  padding-top:0.938em;
   font-weight: 400;
 }
 
@@ -401,8 +425,8 @@ main .content-wrapper {
   background-color:rgb(1, 90, 105);
   color:white;
   border:none;
-  padding:10px 30px;
-  border-radius: 5px;
+  padding:0.625em 1.875em;
+  border-radius: 0.313em;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -415,7 +439,7 @@ footer {
   align-items: center;
   background-color: rgb(0, 54, 71);
   width:100%;
-  min-height: 300px;
+  min-height: 18.75em;
 }
 
 footer p {
@@ -432,12 +456,12 @@ footer p {
 }
 
 .soc-icon {
-  padding:40px;
+  padding:2.5em;
   
 }
 
 .social-med i {
-  font-size: 30px;
+  font-size: 1.875em;
   color:white;
 }
 
