@@ -360,7 +360,7 @@ main .content-wrapper {
 }
 
 .blog .articleimg {
-  box-shadow: rgb(80, 80, 80) 20px 20px 20px;
+  /*box-shadow: rgb(80, 80, 80) 20px 20px 20px;*/
 
 }
 
@@ -369,7 +369,7 @@ main .content-wrapper {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 1.875em 0.625em 6.25em 0.625em;
+  padding: 1.875em 0.625em 5.25em 0.625em;
 }
 
 .blog h2 {
