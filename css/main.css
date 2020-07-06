@@ -322,16 +322,22 @@ main .content-wrapper {
 }
 
 .image-wrapper i {
-  font-size: 3.75em;
+  font-size: 4em;
   width:30%;
   color:rgb(0, 71, 68);
-  padding: 1.25em 1.875em 0 1.875em;
+  padding: 0.75em 1.875em 0 1.875em; 
 
 }
 
 
 
 /*---blog-------*/
+
+
+@font-face {
+  font-family: reey;
+  src:url('../fonts/reey.otf') format('opentype');
+}
 
 .blog {
   display:flex;
@@ -340,8 +346,10 @@ main .content-wrapper {
   align-items: center;
   /*border: rgb(92, 163, 207) solid 1px;*/
   width: 100%;
-  padding-bottom: 6.25em;
-  margin-bottom: 6.25em; 
+  padding-bottom: 5.25em;
+  margin-bottom: 6em; 
+  /*background-color: #f4f4f2;*/
+ 
 }
 
 
@@ -353,7 +361,7 @@ main .content-wrapper {
 }
 
 .blog figure {
-  width:80%;
+  width:100%;
   /*box-shadow: rgb(0, 71, 83) 10px 10px 50px;*/
   /*border: rgb(255, 255, 255) solid 10px;*/
   background-color: white;
@@ -361,7 +369,7 @@ main .content-wrapper {
 
 .blog .articleimg {
   /*box-shadow: rgb(80, 80, 80) 20px 20px 20px;*/
-
+  /*border-radius: 5px;*/
 }
 
 .imgborder {
@@ -374,17 +382,31 @@ main .content-wrapper {
 
 .blog h2 {
   font-family: 'Teko', sans-serif;
+  /*font-family: 'reey';*/
   font-weight: 300;
   letter-spacing: 0.125em;
   font-size: 2.188em;
   text-transform: uppercase;
   color:rgb(1, 90, 105);
-  /*background-color: rgb(208, 242, 253);*/
   width:100%;
   display:flex;
   justify-content: center;
   margin:0 auto;
 }
+
+.icon-text-wrap {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+  /*.highlight {
+  background: url(../img/brush2.png);
+  background-repeat: no-repeat;
+  background-size: 100% 95%;
+  padding: 8px 0;
+  }*/
 
 .blog-title-wrapper {
   display:flex;
@@ -395,12 +417,23 @@ main .content-wrapper {
 }
 
 .divider {
-  border: rgb(208, 242, 253) solid 0.125em;
+  border: rgb(185, 225, 250) solid 0.12em;
   width:100%;
 }
 
-.article-text {
+.inner-container {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding-bottom: 20px;
   width:80%;
+}
+
+
+.article-text {
+  width:100%;
   font-family: 'Source Sans Pro', sans-serif;
   color:rgb(0, 71, 68);
 }
@@ -411,7 +444,7 @@ main .content-wrapper {
 }
 
 .article-title {
-  width:80%;
+  width:100%;
   font-family: 'Source Sans Pro', sans-serif;
   color:rgb(0, 71, 68);
   font-size: 1.375em;
@@ -422,14 +455,23 @@ main .content-wrapper {
 
 
 #blogbutton {
-  background-color:rgb(1, 90, 105);
-  color:white;
-  border:none;
+  background-color:transparent;
+  color:rgb(92, 163, 207);
+  border: solid rgb(92, 163, 207) 1.75px;
   padding:0.625em 1.875em;
   border-radius: 0.313em;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+.last-image {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.last-image img {
+  width:100%;
+}
 /*----footer----*/
 
 footer {
@@ -465,7 +507,11 @@ footer p {
   color:white;
 }
 
-
+.copyright {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
 
 
 
@@ -557,6 +603,155 @@ footer p {
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
+
+@media only screen and (min-width: 768px) {
+
+header h2 {
+  font-size: 1.75em;
+}
+
+figure {
+  width:8%;
+}
+
+.dropdown i {
+  font-size: 2em;
+}
+
+.hero .text-wrapper {
+  top: 2.7em;
+  left: 3.5em;
+}
+
+.hero p {
+  font-size: 1.6em;
+  letter-spacing: 1px;
+}
+
+.image-wrapper {
+  flex-flow: row wrap;
+}
+
+.image-wrapper .text {
+  padding-bottom: 3em;
+}
+
+.image-wrapper i {
+  font-size: 4.5em;
+  width:20%;
+  padding: 0.75em 1.7em 0 1.7em;
+}
+
+.icon-text-wrap {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-links {
+  padding-bottom: 120px;
+}
+
+
+/*----- tablet blog area--------*/
+
+/*.blog {
+  background-color:rgb(0, 54, 71);
+  padding-top: 5em;
+  margin: 0 auto;
+  padding-bottom: 300px;
+}*/
+
+.blog {
+  background-color:white;
+  padding-top: 5em;
+  margin: 0 auto;
+  padding-bottom: 300px;
+}
+
+.divider {
+  border: solid rgb(92, 163, 207) 1.75px;
+}
+
+.blog-title-wrapper {
+  padding-bottom: 20px;
+}
+
+.blog-wrapper {
+  padding-top:50px;
+}
+
+.blog h2 {
+  color:rgb(92, 163, 207);
+  /*color:white;*/
+}
+
+.inner-container {
+  width:70%;
+  position: relative;
+}
+
+#blogbutton {
+  margin-top: 100px;
+  padding:1.5em 2.75em;
+  font-size: 1.2em;
+}
+
+.blog .articleimg {
+  
+  
+}
+
+/*.corner {
+  position: absolute;
+  width:50px;
+}
+
+.corner2 {
+  position: absolute;
+  width:50px;
+  top:0;
+  left:475px;
+}
+
+.corner3 {
+  position: absolute;
+  width:50px;
+  top:515px;
+  left:475px;
+}
+
+.corner4 {
+  position: absolute;
+  width:50px;
+  top:515px;
+}*/
+
+/*----- tablet footer ------*/
+
+footer {
+  padding-top: 100px;
+}
+
+.copyright {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:75%;
+} 
+
+footer p {
+  text-align: center;
+}
+
+.soc-icon {
+  font-size: 1.5em;
+}
+
+
+
+   }
 
 @media only screen and (min-width: 1200px) {
   /* Style adjustments for viewports that meet the condition */
