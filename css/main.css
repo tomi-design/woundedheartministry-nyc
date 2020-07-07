@@ -328,6 +328,7 @@ main .content-wrapper {
   justify-content: center;
   align-items: center;
   width:100%;
+  padding-top: 40px;
 }
 
 .icon {
@@ -460,8 +461,13 @@ main .content-wrapper {
 }
 
 .imgborder a {
-  color:rgb(209, 75, 75);
+  color:rgb(253, 48, 48);
   text-decoration: none;
+  font-weight: bold;
+  width:100%;
+  display:flex;
+  justify-content: flex-start;
+  padding-top: 20px;
 }
 
 .article-title {
@@ -504,7 +510,10 @@ main .content-wrapper {
 
 .last-image img {
   width:100%;
+  padding-bottom: 200px;
 }
+
+
 /*----footer----*/
 
 footer {
@@ -518,9 +527,13 @@ footer {
 }
 
 footer p {
+  display:flex;
+  justify-content: center;
+  align-items: center;
   font-family: 'Source Sans Pro', sans-serif;
   color:white;
   width: 80%;
+  text-align: center;
 }
 
 .social-med {
@@ -544,6 +557,7 @@ footer p {
   display:flex;
   justify-content: center;
   align-items: center;
+  font-size: 12px;
 }
 
 
