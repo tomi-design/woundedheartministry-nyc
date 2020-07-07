@@ -374,6 +374,13 @@ main .content-wrapper {
  
 }
 
+.blog .scripture {
+  font-family: reey;
+  font-family: 'Teko', sans-serif;
+  width:80%;
+  font-size: 18px;
+  padding-bottom: 20px;
+}
 
 .blog-wrapper {
   display:flex;
@@ -480,6 +487,11 @@ main .content-wrapper {
   font-weight: 400;
 }
 
+.button-wrap {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
 
 #blogbutton {
   background-color:transparent;
@@ -510,10 +522,30 @@ main .content-wrapper {
 
 .last-image img {
   width:100%;
-  padding-bottom: 200px;
+  padding-bottom: 50px;
 }
 
+/*-----aside-----*/
 
+.aside-wrapper {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width:100%;
+  padding-bottom: 100px;
+}
+
+aside p {
+  width:70%;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Teko', sans-serif;  
+  letter-spacing: 1px;
+  /*font-family: reey;*/
+  font-size: 24px;
+  color:rgb(127, 190, 230);
+}
 /*----footer----*/
 
 footer {
@@ -524,6 +556,7 @@ footer {
   background-color: rgb(0, 54, 71);
   width:100%;
   min-height: 18.75em;
+  padding-top:20px;
 }
 
 footer p {
@@ -534,6 +567,11 @@ footer p {
   color:white;
   width: 80%;
   text-align: center;
+}
+
+footer span {
+  font-family: reey;
+  font-size: 18px;
 }
 
 .social-med {
@@ -701,14 +739,9 @@ figure {
 }
 
 
-/*----- tablet blog area--------*/
 
-/*.blog {
-  background-color:rgb(0, 54, 71);
-  padding-top: 5em;
-  margin: 0 auto;
-  padding-bottom: 300px;
-}*/
+
+/*----- tablet blog area--------*/
 
 .blog {
   background-color:white;
@@ -729,6 +762,16 @@ figure {
   padding-top:50px;
 }
 
+.blog .scripture {
+  font-family: reey;
+  font-family: 'Teko', sans-serif;
+  font-weight: 300;
+  font-size: 32px;
+  padding-bottom: 60px;
+  color:rgb(1, 81, 92);
+  width:60%;
+}
+
 .blog h2 {
   color:rgb(92, 163, 207);
   /*color:white;*/
@@ -745,36 +788,20 @@ figure {
   font-size: 1.2em;
 }
 
-.blog .articleimg {
-  
-  
+.article-text {
+  font-size: 18px;
 }
 
-/*.corner {
-  position: absolute;
-  width:50px;
+
+.last-image p {
+  font-size: 36px;
 }
 
-.corner2 {
-  position: absolute;
-  width:50px;
-  top:0;
-  left:475px;
+
+aside p {
+  font-family: reey;
+  font-size: 30px;
 }
-
-.corner3 {
-  position: absolute;
-  width:50px;
-  top:515px;
-  left:475px;
-}
-
-.corner4 {
-  position: absolute;
-  width:50px;
-  top:515px;
-}*/
-
 /*----- tablet footer ------*/
 
 footer {
@@ -790,6 +817,12 @@ footer {
 
 footer p {
   text-align: center;
+  font-size: 18px;
+}
+
+footer span {
+  font-size: 26px;
+  color:rgb(144, 212, 255);
 }
 
 .soc-icon {
@@ -804,13 +837,134 @@ footer p {
   /* Style adjustments for viewports that meet the condition */
 
   .dropdown-content a:hover {
-    background-color: rgb(36, 194, 186);
+    background-color:white;
+    color: rgb(36, 194, 186);
   }
   
   .show {
     display:block;
   }
   
+  .dropdown {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+  }
+
+  .dropdown-content {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .dropdown-content a {
+    padding: 1em 1.2em;
+    font-size: 17px;
+  }
+
+  .dropdown i {
+    display:none;
+  }
+
+
+  figure {
+    width:6%;
+  }
+
+  header h2 {
+    font-size: 40px;
+    padding-left: 30px;
+  }
+
+.hero p {
+  font-size: 2.5em;
+}
+
+.hero .text-wrapper {
+  top: 8em;
+  left:6em;
+  width:35%;
+}
+
+.image-wrapper .text {
+  font-size: 2em;
+}
+
+.image-wrapper i {
+  padding: 0.75em 1.5em 0 1.5em;
+  font-size: 7em;
+}
+
+.icon-text-wrap {
+  padding-bottom: 30px;
+}
+
+/*-----desktop blog section -----------*/
+
+.blog {
+  padding-top:10px;
+  padding-bottom: 20px;
+}
+.blog .scripture {
+  font-family: reey;
+  font-size: 40px;
+  width:70%;
+  text-align: center;
+  color:black;
+  /*color:rgb(0, 95, 107);*/
+  line-height: 3em;
+  /*border-top: solid rgb(4, 143, 161) 2px;*/
+  padding-top:10px;
+}
+
+.blog-title-wrapper {
+  width:100%;
+  padding-bottom: 150px;
+  /*border-top: solid rgb(92, 163, 207) 2px;*/
+  background:url('../img/halfcrownlight.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.blog-wrapper {
+  padding-top: 60px;
+}
+
+.divider {
+  border:solid rgb(92, 163, 207) 1px;
+}
+
+.article-wrap {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+  font-family: 'Teko', sans-serif;  
+  text-transform: uppercase;
+  font-size: 40px;
+  color:rgb(0, 71, 68);
+}
+
+.blog h2 {
+  /*font-size: 45px;*/
+  display:none;
+}
+
+.imgborder {
+  width:25%;
+  justify-content: flex-start;
+  padding: 2em 4em 5em 4em;
+}
+
+.inner-container {
+  width:100%;
+  justify-content: flex-start;
+}
+
+.blog .articleimg {
+  box-shadow: gray 10px 10px 20px;
+}
 }
 
 @media print,
