@@ -206,7 +206,7 @@ figure img {
   align-items: center;
   position: absolute;
   width:40%;
-  top: 0.313em;
+  top: 0.5em;
   left: 1.875em;
 }
 
@@ -369,17 +369,31 @@ main .content-wrapper {
   /*border: rgb(92, 163, 207) solid 1px;*/
   width: 100%;
   padding-bottom: 5.25em;
-  margin-bottom: 6em; 
   /*background-color: #f4f4f2;*/
  
 }
 
 .blog .scripture {
-  font-family: reey;
-  font-family: 'Teko', sans-serif;
+  /*font-family: reey;*/
+  /*font-family: 'Teko', sans-serif;*/
+  font-family: 'Source Sans Pro', sans-serif;
   width:80%;
-  font-size: 18px;
-  padding-bottom: 20px;
+  font-size: 20px;
+  padding-bottom: 10px;
+  text-align: center;
+  color:rgb(126, 176, 207);
+  font-style: italic;
+
+}
+
+.blog .scripture2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  width:80%;
+  font-size: 20px;
+  padding-bottom: 50px;
+  text-align: center;
+  color:rgb(126, 176, 207);
+  font-style: italic;
 }
 
 .blog-wrapper {
@@ -421,6 +435,7 @@ main .content-wrapper {
   display:flex;
   justify-content: center;
   margin:0 auto;
+  padding: 40px 0 40px 0;
 }
 
 .icon-text-wrap {
@@ -571,7 +586,8 @@ footer p {
 
 footer span {
   font-family: reey;
-  font-size: 18px;
+  font-size: 20px;
+  color:rgb(127, 190, 230);
 }
 
 .social-med {
