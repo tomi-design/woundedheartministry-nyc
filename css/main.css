@@ -778,6 +778,9 @@ figure {
   font-family: professor,sans-serif;
   font-weight: 400;
   font-style: normal;
+  /*font-family: reey;
+  font-size: 27px;
+  line-height: 2.5em;*/
 }
 
 .scripture-wrap {
@@ -972,6 +975,13 @@ footer span {
 
 .icon-text-wrap {
   padding-bottom: 30px;
+}
+
+.scripture-wrap {
+  width:80%;
+}
+.last-image p {
+  width:50%;
 }
 
 /*-----desktop blog section -----------*/
