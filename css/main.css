@@ -462,9 +462,8 @@ main .content-wrapper {
 }
 
 .divider {
-  /*border: rgb(185, 225, 250) solid 0.12em;
-  width:100%;*/
-  display:none;
+  border: rgb(0, 114, 143) solid 0.12em;
+  width:80%;
 }
 
 .inner-container {
@@ -527,19 +526,24 @@ main .content-wrapper {
 }
 
 .last-image p {
-  font-family: 'Teko', sans-serif;  
+  font-family: 'Teko', sans-serif; 
+  font-family: reey; 
+  font-family: 'Source Sans Pro', sans-serif;
+
   color:rgb(92, 163, 207);
-  font-size: 25px;
-  font-weight: 300;
-  letter-spacing: 1px;
+  font-size: 20px;
+  font-weight: normal;
+  /*letter-spacing: 1px;*/
   word-spacing: 1.5px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
+  width: 70%;
+  text-align: center;
 }
 
 
 .last-image img {
   width:100%;
-  padding-bottom: 50px;
+  padding: 70px 0;
 }
 
 /*-----aside-----*/
