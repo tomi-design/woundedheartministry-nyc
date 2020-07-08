@@ -352,6 +352,46 @@ main .content-wrapper {
 
 }
 
+.divider {
+  border: rgb(235, 235, 235) solid 0.12em;
+  width:80%;
+}
+
+.scripture-wrap {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.last-image {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.last-image p {
+  font-family: abolition-soft,sans-serif;
+  font-family: 'Teko', sans-serif; 
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  color:rgb(147, 203, 238);
+  font-size: 18px;
+  font-weight: normal;
+  /*letter-spacing: 0.75px;
+  word-spacing: 1px;
+  /*text-transform: uppercase;*/
+  width: 80%;
+  text-align: right;
+}
+
+
+.last-image img {
+  width:100%;
+  padding: 70px 0;
+}
 
 
 /*---blog-------*/
@@ -374,9 +414,10 @@ main .content-wrapper {
  
 }
 
+/*
 .blog .scripture {
   /*font-family: reey;*/
-  /*font-family: 'Teko', sans-serif;*/
+  /*font-family: 'Teko', sans-serif;
   font-family: 'Source Sans Pro', sans-serif;
   width:80%;
   font-size: 20px;
@@ -395,7 +436,7 @@ main .content-wrapper {
   text-align: center;
   color:rgb(126, 176, 207);
   font-style: italic;
-}
+}*/
 
 .blog-wrapper {
   display:flex;
@@ -511,40 +552,6 @@ main .content-wrapper {
   padding:0.625em 1.875em;
   border-radius: 0.313em;
   font-family: 'Source Sans Pro', sans-serif;
-}
-
-.divider {
-  border: rgb(235, 235, 235) solid 0.12em;
-  width:80%;
-}
-
-.last-image {
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.last-image p {
-  font-family: abolition-soft,sans-serif;
-  font-family: 'Teko', sans-serif; 
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  color:rgb(147, 203, 238);
-  font-size: 18px;
-  font-weight: normal;
-  /*letter-spacing: 0.75px;
-  word-spacing: 1px;
-  /*text-transform: uppercase;*/
-  width: 80%;
-  text-align: right;
-}
-
-
-.last-image img {
-  width:100%;
-  padding: 70px 0;
 }
 
 /*-----aside-----*/
@@ -763,7 +770,20 @@ figure {
   padding-bottom: 120px;
 }
 
+.last-image p {
+  width:60%;
+  font-size: 36px;
+  color:rgb(92, 163, 207);
+  color:black;
+  font-family: professor,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
+.scripture-wrap {
+  width:80%;
+  align-items: flex-end;
+}
 
 
 /*----- tablet blog area--------*/
@@ -771,11 +791,6 @@ figure {
 .blog {
   background-color:white;
   margin: 0 auto;
-}
-
-.divider {
-  /*border: solid rgb(92, 163, 207) 1.75px;*/
-  display:none;
 }
 
 .blog-title-wrapper {
@@ -792,13 +807,14 @@ figure {
   padding-top:50px;
 }
 
+/*
 .blog .scripture {
   font-family: 'Slabo 27px', serif;
   /*font-family: 'Teko', sans-serif;  
   font-family: 'Source Sans Pro', sans-serif;*/
   
 
-  font-family: reey;
+  /*font-family: reey;
   font-family: 'Noto Serif', serif;
   font-family: 'Source Sans Pro', sans-serif;
   font-family: 'Slabo 27px', serif;
@@ -806,7 +822,7 @@ figure {
   font-size: 30px;
   padding-bottom: 10px;
   padding-top: 30px;
-  /*color:rgb(1, 81, 92);*/
+  /*color:rgb(1, 81, 92);
   color:white;
   width:50%;
   font-style: normal;
@@ -821,17 +837,17 @@ figure {
 
   font-size: 22px;
   padding-bottom: 60px;
-  /*color:rgb(1, 81, 92);*/
+  color:rgb(1, 81, 92);
   font-size: 30px;
   font-family: 'Noto Serif', serif;
   font-family: 'Source Sans Pro', sans-serif;
-  font-family: 'Slabo 27px', serif;
   color:white;
   width:50%;
   font-style: normal;
   text-align: right;
   padding-bottom: 20px;
-}
+}*/
+
 
 
 .blog h2 {
@@ -853,11 +869,6 @@ figure {
 
 .article-text {
   font-size: 18px;
-}
-
-
-.last-image p {
-  font-size: 36px;
 }
 
 
