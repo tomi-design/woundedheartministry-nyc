@@ -682,10 +682,46 @@ footer span {
 }
 
 
+/*-----HURTING PAGE MOBILE-----*/
 
+.hurting-wrap {
+  width:100%;
+  margin:0 auto;
+}
 
+.hurting-main {
+  background:url(../img/three-envelopes.png);
+ /* background:url(../img/whiteenvelope.png);*/
+  background-repeat: no-repeat;
+  background-size: 60em;
+}
 
+.hurting-title {
+  font-family: professor,sans-serif;
+  font-weight: 300;
+  font-size: 36px;
+}
 
+.hurting-text {
+  width:80%;
+  padding-bottom: 50px;
+}
+
+.hurting-text h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+  color:rgb(36, 194, 186);
+  color:rgb(170, 210, 255);
+}
+
+.hurting-text span {
+  color:red;
+  font-weight: bold;
+}
+
+.hurting-text p {
+  font-family: 'Source Sans Pro', sans-serif;
+  padding-bottom: 30px;
+}
 
 
 
@@ -980,11 +1016,14 @@ footer span {
 
 
 
+/*---------HURTING PAGE TABLET------*/
 
-
-
-
-
+.hurting-main {
+  background:url(../img/three-envelopes.png);
+  background:url(../img/whiteenvelope.png);
+  background-repeat: no-repeat;
+  background-size: 90em;
+}
 
 
 
@@ -1173,13 +1212,35 @@ footer span {
 }
 
 
+/*--------------HURTING PAGE DESKTOP----------*/
 
 
+.hurting-main {
+  background:url(../img/three-envelopes.png);
+  background:url(../img/whiteenvelope.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
 
+.hurting-text {
+  width:60%;
+}
 
+.hurting-text h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+  color:rgb(170, 210, 255);
+  font-size: 22px;
+}
 
+.hurting-title {
+  font-size: 40px;
+  padding-bottom: 50px;
+}
 
-
+.hurting-text p {
+  font-size: 20px;
+}
 
 
 
