@@ -631,6 +631,9 @@ footer span {
 
 .about-main {
   /*background-color: rgb(235, 245, 252);*/
+  background:url('../img/bridge.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .about-title {
