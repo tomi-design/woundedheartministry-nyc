@@ -653,6 +653,40 @@ footer span {
   padding-left: 35%;
 }
 
+
+/*----------BELIEF PAGE MOBILE---------------------*/
+
+
+.belief-title {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+}
+
+.belief-paragraph {
+  width:75%;
+  padding: 40px 0 60px;
+}
+
+.belief-paragraph span {
+  color:rgb(36, 194, 186);
+}
+
+.belief-paragraph p {
+  font-size: 18px;
+  font-weight: 300;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -929,6 +963,26 @@ footer span {
   font-size: 1.5em;
 }
 
+/*---------------BELIEF PAGE TABLET------------*/
+
+
+
+.belief-paragraph p {
+  font-size: 22px;
+  font-weight: 300;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
    }
@@ -1100,6 +1154,19 @@ footer span {
 
 .signature {
   padding-left: 70%;
+}
+
+
+
+/*--------------BELIEF PAGE DESKTOP----------*/
+
+.belief-paragraph {
+  width:60%;
+}
+
+.belief-paragraph p {
+  font-size: 22px;
+  font-weight: 300;
 }
 
 
