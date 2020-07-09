@@ -691,15 +691,18 @@ footer span {
 
 .hurting-main {
   background:url(../img/three-envelopes.png);
- /* background:url(../img/whiteenvelope.png);*/
+  background:url(../img/whiteenvelope.png);
   background-repeat: no-repeat;
-  background-size: 60em;
+  background-position: center;
+  background-size: cover;
 }
 
 .hurting-title {
+  width:80%;
   font-family: professor,sans-serif;
   font-weight: 300;
   font-size: 36px;
+  text-align: center;
 }
 
 .hurting-text {
@@ -1025,6 +1028,10 @@ footer span {
   background-size: 90em;
 }
 
+
+.hurting-text p {
+  font-size: 20px;
+}
 
 
    }
