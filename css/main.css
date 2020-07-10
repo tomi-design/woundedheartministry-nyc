@@ -367,6 +367,13 @@ main .content-wrapper {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width:80%;
+  align-items: flex-end;
+  padding-right:30px;
+  /*box-shadow: rgb(212, 212, 212) -10px -10px 60px;*/
+  border: rgb(173, 230, 230) solid 2px;
+  border-radius: 20px;
+  margin-top:130px;
 }
 
 .last-image {
@@ -378,16 +385,10 @@ main .content-wrapper {
 
 .last-image p {
   font-family: abolition-soft,sans-serif;
-  font-family: 'Teko', sans-serif; 
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: normal;
+  font-weight: 300;
   font-style: normal;
-  color:rgb(147, 203, 238);
-  font-size: 18px;
-  font-weight: normal;
-  /*letter-spacing: 0.75px;
-  word-spacing: 1px;
-  /*text-transform: uppercase;*/
+  color:rgb(69, 148, 158);
+  font-size: 28px;
   width: 80%;
   text-align: right;
 }
@@ -396,6 +397,7 @@ main .content-wrapper {
   width:100%;
   padding: 210px 0;
 }
+
 
 /*---blog-------*/
 
