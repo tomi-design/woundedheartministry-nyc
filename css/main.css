@@ -692,17 +692,21 @@ footer span {
 .hurting-main {
   background:url(../img/three-envelopes.png);
   background:url(../img/whiteenvelope.png);
+  background:url(../img/plainbb2.png);
+
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .hurting-title {
+
   width:80%;
   font-family: professor,sans-serif;
   font-weight: 300;
-  font-size: 36px;
+  font-size: 50px;
   text-align: center;
+  color:white;
 }
 
 .hurting-text {
@@ -712,18 +716,20 @@ footer span {
 
 .hurting-text h3 {
   font-family: 'Source Sans Pro', sans-serif;
-  color:rgb(36, 194, 186);
-  color:rgb(170, 210, 255);
+  font-family: 'Cabin Sketch', cursive; 
+  color:rgb(151, 213, 255);
+  font-size: 30px;
 }
 
 .hurting-text span {
-  color:red;
+  color:rgb(255, 169, 169);
   font-weight: bold;
 }
 
 .hurting-text p {
   font-family: 'Source Sans Pro', sans-serif;
   padding-bottom: 30px;
+  color:white;
 }
 
 /*-------------KNOW JESUS PAGE MOBILE---------*/
@@ -1420,6 +1426,7 @@ footer span {
 .hurting-main {
   background:url(../img/three-envelopes.png);
   background:url(../img/whiteenvelope.png);
+  background:url(../img/blue.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   
