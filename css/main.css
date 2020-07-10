@@ -693,7 +693,6 @@ footer span {
   background:url(../img/three-envelopes.png);
   background:url(../img/whiteenvelope.png);
   background:url(../img/plainbb2.png);
-
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1218,10 +1217,15 @@ footer span {
 /*---------HURTING PAGE TABLET------*/
 
 .hurting-main {
-  background:url(../img/three-envelopes.png);
+  /*background:url(../img/three-envelopes.png);
   background:url(../img/whiteenvelope.png);
   background-repeat: no-repeat;
-  background-size: 90em;
+  background-size: 90em;*/
+
+  background:url(../img/plainbb2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 
@@ -1229,6 +1233,9 @@ footer span {
   font-size: 20px;
 }
 
+.hurting-title {
+  font-size: 50px;
+}
 
    }
 
@@ -1424,10 +1431,14 @@ footer span {
 
 
 .hurting-main {
-  background:url(../img/three-envelopes.png);
+  /*background:url(../img/three-envelopes.png);
   background:url(../img/whiteenvelope.png);
   background:url(../img/blue.jpg);
   background-repeat: no-repeat;
+  background-size: cover;*/
+  background:url(../img/plainbb2.png);
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
   
 }
@@ -1443,7 +1454,7 @@ footer span {
 }
 
 .hurting-title {
-  font-size: 40px;
+  font-size: 60px;
   padding-bottom: 50px;
 }
 
