@@ -297,7 +297,6 @@ main .content-wrapper {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-bottom: 90px;
 }
 
 
@@ -395,7 +394,7 @@ main .content-wrapper {
 
 .last-image img {
   width:100%;
-  padding: 70px 0;
+  padding: 210px 0;
 }
 
 /*---blog-------*/
@@ -1067,16 +1066,22 @@ figure {
 }
 
 .image-links {
-  padding-bottom: 120px;
+  padding-bottom: 200px;
+}
+
+.last-image img {
+  padding-top:230px;
 }
 
 .last-image p {
   width:60%;
-  font-size: 36px;
+  font-size: 30px;
   color:rgb(92, 163, 207);
-  color:black;
-  font-family: professor,sans-serif;
-  font-weight: 400;
+  
+  font-family: abolition-soft,sans-serif;
+  font-family: 'Noto Serif', serif;
+  letter-spacing: 1px;
+  font-weight: 300;
   font-style: normal;
   /*font-family: reey;
   font-size: 27px;
@@ -1086,6 +1091,8 @@ figure {
 .scripture-wrap {
   width:80%;
   align-items: flex-end;
+  padding-right:30px;
+  box-shadow: rgb(212, 212, 212) -10px -10px 60px;
 }
 
 
