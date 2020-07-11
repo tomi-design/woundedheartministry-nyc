@@ -21,6 +21,11 @@ window.onclick = function(event){
 
 
 
+
+
+
+/*------for slide show on homepage-----*/
+
 let slideIndex=0;
 showSlides();
 

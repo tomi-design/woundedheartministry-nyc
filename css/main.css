@@ -159,6 +159,7 @@ figure img {
   display:none;
 }
 
+
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
@@ -313,20 +314,6 @@ main .content-wrapper {
   color:rgb(92, 163, 207);
 }
 
-
-/*.image-wrapper {
-  display:flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  width:90%;
-}--- if we used photos
-
-.image-wrapper img {
-  width: 70%;
-  margin:20px;
-  border-radius: 0px;
-}--if we used photos--*/
-
 .image-wrapper {
   display:flex;
   flex-direction: column;
@@ -431,30 +418,6 @@ main .content-wrapper {
  
 }
 
-/*
-.blog .scripture {
-  /*font-family: reey;*/
-  /*font-family: 'Teko', sans-serif;
-  font-family: 'Source Sans Pro', sans-serif;
-  width:80%;
-  font-size: 20px;
-  padding-bottom: 10px;
-  text-align: center;
-  color:rgb(126, 176, 207);
-  font-style: italic;
-
-}
-
-.blog .scripture2 {
-  font-family: 'Source Sans Pro', sans-serif;
-  width:80%;
-  font-size: 20px;
-  padding-bottom: 50px;
-  text-align: center;
-  color:rgb(126, 176, 207);
-  font-style: italic;
-}*/
-
 .blog-wrapper {
   display:flex;
   justify-content: center;
@@ -464,14 +427,7 @@ main .content-wrapper {
 
 .blog figure {
   width:100%;
-  /*box-shadow: rgb(0, 71, 83) 10px 10px 50px;*/
-  /*border: rgb(255, 255, 255) solid 10px;*/
   background-color: white;
-}
-
-.blog .articleimg {
-  /*box-shadow: rgb(80, 80, 80) 20px 20px 20px;*/
-  /*border-radius: 5px;*/
 }
 
 .imgborder {
@@ -866,9 +822,6 @@ footer span {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 27px;
   text-align: center;
-  color:white;
-  color:black;
-  color:rgb(0, 71, 68);
   color:lightblue;
   padding-top: 40px;
   font-weight: normal;
@@ -877,9 +830,6 @@ footer span {
 .know-title span {
   font-family: reey;
   font-size: 60px;
-  color:rgb(36, 194, 186);
-  color:white;
-  color:black;
   color:rgb(1, 84, 99);
   text-transform: none;
 }
@@ -889,10 +839,6 @@ footer span {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 300;
   font-size: 30px;
-  color:white;
-  color:black;
-  color:rgb(0, 71, 68);
-  color:lightblue;
   color:rgb(255, 122, 122);
   margin-top:50px;
   text-align: center;
@@ -903,10 +849,6 @@ footer span {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 300;
   font-size: 35px;
-  color:pink;
-  color:rgb(255, 154, 154);
-  color:white;
-  color:rgb(37, 102, 110);
   color:rgb(255, 122, 122);
 
   text-align: center;
@@ -934,15 +876,108 @@ footer span {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 300;  
   font-size: 35px;
-  color:pink;
-  color:rgb(0, 71, 68);
-  color:lightblue;
   color:rgb(255, 122, 122);
 
 }
 
+/*----------OUR PASTOR PAGE MOBILE----------*/
 
+section {
+  width:100%;
+}
+.pastor-main {
+  width:100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background:url("../img/bridge2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
+.pastor-wrapper {
+  width:90%;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+.pastor-title h1 {
+  display:none;
+}
+
+.pastor-para {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: normal;
+  font-size: 20px;  
+  padding-top: 50px;
+}
+
+.half-width {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+
+#title-para {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#imagewrap {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: gray 20px 20px 20px;
+  width:70%;
+  padding-bottom: 30px;
+  margin-top: 50px;
+  background-color: white;
+}
+
+.half-width img {
+  width:90%;
+  margin-top: 40px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#mobiletitle {
+  font-family: professor,sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-family: reey;
+  font-weight: 300;
+  font-size: 27px;
+  color:rgb(0, 106, 124);
+}
+
+.audio-wrapper {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0 100px 0;
+  width:100%;
+  margin:0 auto;
+  background-color:white;
+}
+
+.audio-wrapper h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: normal;
+  font-size: 22px; 
+  color:rgb(0, 106, 124); 
+  color:rgb(110, 189, 216);
+  width:80%;
+  text-align: center;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -1261,6 +1296,59 @@ footer span {
   font-size: 50px;
 }
 
+
+/*----------OUR PASTOR PAGE TABLET-----*/
+
+.pastor-main {
+  width:100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  /*background:url("../img/bridge2.png");
+  background-repeat: no-repeat;*/
+}
+
+.pastor-wrapper {
+  width:90%;
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+.pastor-title h1 {
+  font-family: reey;
+  font-family: professor,sans-serif;
+}
+
+.pastor-para {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: normal; 
+  font-size: 27px; 
+  width:90%;
+}
+
+.half-width {
+  width: 100%;
+}
+
+.half-width img {
+  width:90%;
+  margin-top: 40px;
+}
+
+
+.audio-wrapper h2 {
+  font-size: 30px;
+}
+
+audio {
+  width:60%;
+  
+}
+
+
    }
 
 @media only screen and (min-width: 1200px) {
@@ -1275,6 +1363,10 @@ footer span {
     display:block;
   }
   
+  #pastorlink {
+    display:none;
+  }
+
   .dropdown {
     display:flex;
     justify-content: center;
@@ -1288,6 +1380,7 @@ footer span {
     align-items: center;
   }
 
+
   .dropdown-content a {
     padding: 1em 0 0 1.5em;
     font-size: 19px;
@@ -1296,6 +1389,7 @@ footer span {
   .dropdown i {
     display:none;
   }
+
 
 
   figure {
@@ -1502,6 +1596,73 @@ footer span {
 .know-paragraph {
   width:60%;
 }
+
+
+
+
+
+
+
+/*----------OUR PASTOR DESKTOP---------------*/
+
+
+.pastor-wrapper {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#mobiletitle {
+  display:none;
+}
+
+.pastor-title h1 {
+  font-family: reey;
+  font-family: professor,sans-serif;
+  font-family: 'Teko', sans-serif; 
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 300;
+  display:flex;
+  font-size: 60px;
+  
+  color:lightblue;
+  color:black;
+  color:rgb(0, 105, 105);
+  margin:0 auto;
+}
+
+.pastor-para {
+  padding-top:0;
+  font-size: 24px;
+}
+
+#imagewrap {
+  width:30%;
+  margin:0 auto;
+  margin-top: 100px;
+}
+
+#title-para {
+  width:50%;
+  padding-top: 80px;
+  
+}
+
+
+.audio-wrapper h2 {
+  font-family: 'Teko', sans-serif; 
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 30px;
+  color:rgb(145, 192, 207);
+}
+
+
+
+
+
+
+
 
 
 
